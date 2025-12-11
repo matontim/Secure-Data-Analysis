@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_unchecked
+*.ipynb_checkpoints/
+
+# Data
+data/raw/
+data/processed/*.h5
+data/processed/*.hdf5
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.vcf
+*.fasta
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
